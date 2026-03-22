@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Azure Bay Beach",
+    "description": "Golden sands and calm waters — perfect for families.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=60",
+    "category": "Beaches"
+  },
+  {
+    "title": "Coral Cove",
+    "description": "A hidden beach with snorkeling spots.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=60",
+    "category": "Beaches"
+  },
+  {
+    "title": "Sunset Temple",
+    "description": "An ancient temple with spectacular sunset views.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=60",
+    "category": "Temples"
+  },
+  {
+    "title": "Lotus Shrine",
+    "description": "A peaceful temple known for its architecture.",
+    "image": "https://images.unsplash.com/photo-1526481280698-5f60d9a4b257?w=800&q=60",
+    "category": "Temples"
+  },
+  {
+    "title": "Iberia Escape",
+    "description": "Explore the varied culture and landscapes of this country.",
+    "image": "https://images.unsplash.com/photo-1505765050252-3b1a8d7e48d6?w=800&q=60",
+    "category": "Countries"
+  },
+  {
+    "title": "Sakura Lands",
+    "description": "A country with rich traditions and scenic beauty.",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=60",
+    "category": "Countries"
+  }
+  ,
+  {
+    "title": "Australia",
+    "description": "Discover beaches, reefs and the Outback in Australia.",
+    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=60",
+    "category": "Countries"
+  },
+  {
+    "title": "New Zealand",
+    "description": "Dramatic landscapes, fjords and friendly towns to explore.",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&q=60",
+    "category": "Countries"
+  }
+]

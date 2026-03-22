@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Us — Travelly</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Travelly</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h1>Contact Us</h1>
+      <p>Have questions or suggestions? Send us a message.</p>
+    </section>
+
+    <section class="contact-form">
+      <form id="contactForm">
+        <label>Name<br><input id="name" required></label>
+        <label>Email<br><input id="email" type="email" required></label>
+        <label>Message<br><textarea id="message" rows="6" required></textarea></label>
+        <div class="buttons">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">© Travelly</footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Contact from ' + name);
+      const body = encodeURIComponent('From: ' + name + ' (' + email + ')\n\n' + message);
+      window.location.href = `mailto:info@travelly.example?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
